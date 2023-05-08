@@ -6,27 +6,17 @@
              Title="Demopage">
     <Shell.TitleView>
         <Grid BackgroundColor="DeepPink">
-            <!--HeightRequest="44"
-            Margin="0,25,0,0"-->
-            <!--<Label HorizontalTextAlignment="Start"
-                   VerticalTextAlignment="Start"
-                   VerticalOptions="Start"
-                   Text="Start" />-->
             <Label HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
-                   Text="RoutingPage">
+                   Text="DemoPage">
             </Label>
-            <!--<Label HorizontalOptions="End"
-                   VerticalTextAlignment="End"
-                   VerticalOptions="End"
-                   Text="End" />-->
         </Grid>
     </Shell.TitleView>
 
     <ContentPage.Content>
         <VerticalStackLayout>
             <Label x:Name="DebugLabel"
-                   Text="Test"></Label>
+                   Text="Registered via AppShell"/>
         </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>
